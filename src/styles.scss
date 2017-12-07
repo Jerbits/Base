@@ -1,0 +1,12 @@
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "./build/variables.scss";
+
+$color: white;
+
+body{
+	background: $color;
+	@media #{$xl}{
+		background: black;
+	}
+}
