@@ -6,7 +6,7 @@ $color: white;
 
 body{
 	background: $color;
-	@media #{$xl}{
-		background: black;
+	@media (min-width: 1200px){
+		background: green;
 	}
 }

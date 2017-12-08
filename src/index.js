@@ -1,9 +1,11 @@
-import './styles.scss';
+import './assets/stylesheets/styles.scss';
 import $ from 'jquery';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app/App.jsx'
 
-
-const base = () => {
-	let basefile = "Let's get started";
-	document.write(`<h1>${basefile}</h1>`);
+if (process.env.NODE_ENV !== 'production') {
+  require('../build/index.html')
 }
-base();
+
+ReactDOM.render(<App />, document.getElementById("root"));
