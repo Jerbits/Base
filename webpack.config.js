@@ -68,9 +68,14 @@ let config = {
   },
   plugins: [
 		new Extractplugin('styles.css'),
-		new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production')
-    })
+    new webpack.ProvidePlugin({
+	    $: 'jquery',
+	    jQuery: 'jquery',
+	    'window.jQuery': 'jquery',
+	    tether: 'tether',
+	    Tether: 'tether',
+	    'window.Tether': 'tether',
+		})
   ],
   devServer: {
   	contentBase: path.resolve(__dirname, './build'),
