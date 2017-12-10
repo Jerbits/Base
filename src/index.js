@@ -1,5 +1,5 @@
 import './assets/stylesheets/styles.scss';
-import 'bootstrap-sass';
+import 'font-awesome/scss/font-awesome.scss';
 import React from 'react';
 import { render } from 'react-dom';
 import App from './app/components/App';

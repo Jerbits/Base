@@ -8,7 +8,7 @@ $color: white;
 body{
 	background: $color;
 	@media (min-width: $md){
-		background: gray;
+		background: white;
 	}
 	.starter-template {
 		margin-top: 40px;
