@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from './components/Navigation';
-import Body from './components/Body';
-import Footer from './components/Footer';
+import Navigation from './Navigation';
+import Body from './Body';
+import Footer from './Footer';
 
 const wrapper = props => {
 	return(
@@ -12,5 +12,4 @@ const wrapper = props => {
 		</div>
 	)
 }
-
 export default wrapper;
