@@ -1,6 +1,6 @@
 import React from 'react';
 
-const navigation = props => {
+const Navigation = props => {
 	return (
 		<nav className="navbar navbar-inverse navbar-fixed-top">
 	      <div className="container">
@@ -25,4 +25,4 @@ const navigation = props => {
 	)
 }
 
-export default navigation;
+export default Navigation;

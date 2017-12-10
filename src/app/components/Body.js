@@ -1,7 +1,7 @@
 import React from 'react';
 import sample from 'images/index'
 
-const body = props => {
+const Body = props => {
 	return (
 		<div className="container">
       <div className="starter-template">
@@ -15,4 +15,4 @@ const body = props => {
 	)
 }
 
-export default body;
+export default Body;

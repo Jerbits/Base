@@ -50,7 +50,7 @@ class Footer extends React.Component{
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<ScrollTest stateChange={this.receiveStateChange} />
+			<ScrollTest stateChange={this.receiveStateChange} proptest="I AM in the viewport!"/>
     </div>
 		)
 	}

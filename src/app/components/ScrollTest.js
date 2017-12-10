@@ -5,7 +5,7 @@ export default Watch(class ScrollTest extends React.Component {
 	render () {
 		let text;
 		if (this.props.isInViewport) {
-			text = 'I AM in the viewport!';
+			text = this.props.proptest;
 		} else {
 			text = 'You will never see this because it gets replaced when it enters the viewport.'
 		}
