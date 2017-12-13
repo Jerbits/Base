@@ -66,7 +66,7 @@ let config = {
     	},
       { 
         test: /\.(woff|woff2|eot|ttf|svg)(\?.*$|$)/, 
-        loader: "file-loader?name=./fonts/[name].[ext]", 
+        loader: "file-loader?name=./fonts/[name].[ext]" 
       }
     ]
   },
